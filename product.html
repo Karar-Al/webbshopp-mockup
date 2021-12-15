@@ -81,20 +81,45 @@
             <span class="badge rounded-pill bg-dark">3D</span>
           </p>
         </div>
+        <div class="ratio ratio-16x9 mt-3 rounded-3 overflow-hidden">
+          <iframe src="https://www.youtube.com/embed/dNMBVVdrMKo" title="YouTube video" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
+
   </div>
 
   <div class="container mb-5">
     <h3>Recensioner</h3>
     <hr>
+    <form action="">
+      <div class="mb-3">
+        <label for="recension" class="form-label">Din recension</label>
+        <textarea class="form-control" name="recension" id="recension" rows="3"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="betyg" class="form-label">Betyg</label>
+        <select class="form-select" name="betyg" id="betyg" aria-label="Select betyg" required>
+          <option selected>Välj betyg</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+          <option value="4">Four</option>
+          <option value="5">Five</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Lägg upp</button>
+      </div>
+    </form>
+    <hr>
     <div class="row justify-content-center align-items-center">
-      <div class="col-1">
+      <div class="col-12 col-lg-1">
         <figure class="ratio ratio-1x1 rounded-circle overflow-hidden d-flex justify-content-center m-0">
           <img class="img-fluid object-fit" src="./public/img/LEIF.jpeg" alt="">
         </figure>
       </div>
-      <div class="col-11 bg-dark bg-opacity-10 p-4 rounded-3">
+      <div class="col-12 col-lg-11 bg-dark bg-opacity-10 p-4 rounded-3">
         <div class="row">
           <div class="col-10">
             <p class="fs-3">Bertil</p>
