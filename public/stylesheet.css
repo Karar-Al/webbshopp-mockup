@@ -25,7 +25,6 @@ body {
 }
 
 .bg-every-other .col-12:nth-child(2n) {
-  color: #FFFFFF;
   background: rgba(0, 20, 198, 0.68);
 }
 
@@ -44,4 +43,15 @@ body {
 .object-fit {
   object-fit: cover;
   object-position: center;
+}
+
+
+/* https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6 */
+.scrolling-wrapper {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none;
 }
