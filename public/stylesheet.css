@@ -55,3 +55,7 @@ body {
 .scrolling-wrapper::-webkit-scrollbar {
   display: none;
 }
+
+#navbar, #footer {
+  margin-bottom: -0.4rem;
+}
