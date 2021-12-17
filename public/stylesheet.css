@@ -59,3 +59,11 @@ body {
 #navbar, #footer {
   margin-bottom: -0.5rem;
 }
+
+.-m-2 {
+  margin-left: -2rem;
+}
+
+.z-index-0 {
+  z-index: -1;
+}
