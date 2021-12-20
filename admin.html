@@ -15,32 +15,87 @@
   <iframe src="./navbar.html" frameborder="0" class="w-100" height="auto" title="navbar" id="navbar"></iframe>
   <script src="./public/js/navbar.js"></script>
 
-  <div class="container mt-2 mt-lg-5 mb-2 mb-lg-5">
-    <h1 class="fw-bold">Varukorg</h1>
+  <div class="container-fluid bg-every-other mt-2 mt-lg-5 mb-2 mb-lg-5">
+    <hr>
     <div class="row">
-      <div class="col-md-2 col-4">
-        <img class="img-fluid" src="public/img/lorax.png" alt="">
-      </div>
-      <div class="col-md-10 col-8">
-        <p class="fs-4 fw-bold">The Lorax (DVD)</p>
-        <p class="fs-5">Pris: 99,99 SEK</p>
-        <form class="row align-items-center">
-          <div class="col-auto">
-            <div class="input-group">
-              <button type="button" class="btn bg-dark bg-opacity-50">+</button>
-              <input type="number" value="1" class="form-control" style="width:50px;">
-              <button type="button" class="btn bg-dark bg-opacity-50">-</button>
-            </div>
-          </div>
-          <div class="col-auto">
-            <i data-feather="trash-2" class="feather-32"></i>
-          </div>
-        </form>
-      </div>
+      <div class="col">Namn</div>
+      <div class="col">Text</div>
+      <div class="col">Bild</div>
+      <div class="col">Pris</div>
+      <div class="col">Utvalda</div>
+      <div class="col">Lagersaldo</div>
     </div>
     <hr>
-    <p class="text-center">Total pris: 99,99 SEK <strong>(exkl. frakt)</strong></p>
-    <a class="btn btn-bg-color p-lg-2 fs-3 w-100" href="bestall.html">Fortsätt till betalning</a>
+
+    <form class="row ">
+          <div class="col-2"><input class="form-control" type="text" placeholder="Namn"></div>
+          <div class="col-2"><input class="form-control" type="text" placeholder="Text"></div>
+          <div class="col-2"><input class="form-control" type="text" placeholder="Bild"></div>
+          <div class="col-2"><input class="form-control" type="text" placeholder="Pris"></div>
+          <div class="col-2"><input class="form-control" type="text" placeholder="Utvalda"></div>
+          <div class="col-2"><input class="form-control" type="text" placeholder="Lagersaldo"></div>
+    </form>
+
+     <div class="row mt-2 justify-content-start">
+       <div class="col-auto">
+         <button class="btn btn-primary"><i data-feather="plus"></i> Lägg till</button>
+       </div>
+       <div class="col-auto">
+         <button class="btn btn-danger"><i data-feather="trash-2"></i> Ta bort</button>
+       </div>
+     </div>
+    <hr>
+  
+    <div class="row pt-4 pb-2">
+      <div class="col">Lorax</div>
+      <div class="col">Lorax dödar sin mor...</div>
+      <div class="col"><img class="img-fluid" src="./public/img/lorax.png" alt="Lorax" style="height:50px"></div>
+      <div class="col">99.99kr</div>
+      <div class="col"><input type="checkbox" checked></div>
+      <div class="col">45 stycken</div>
+      <div class="row justify-content-start">
+        <div class="col-auto">
+          <button class="btn btn-primary"><i data-feather="edit"></i> Ändra</button>
+        </div>
+        <div class="col-auto">
+          <button class="btn btn-danger"><i data-feather="trash-2"></i> Ta bort</button>
+        </div>
+      </div>
+      
+    </div>
+    <div class="row bg-row pt-2 pb-2">
+      <div class="col">Alien</div>
+      <div class="col">Alien vs Sharks</div>
+      <div class="col"><img class="img-fluid" src="./public/img/shark.png" alt="Lorax" style="height:50px"></div>
+      <div class="col">140kr</div>
+      <div class="col"><input type="checkbox" checked></div>
+      <div class="col">45 stycken</div>
+      <div class="row justify-content-start">
+        <div class="col-auto">
+          <button class="btn btn-primary"><i data-feather="edit"></i> Ändra</button>
+        </div>
+        <div class="col-auto">
+          <button class="btn btn-danger"><i data-feather="trash-2"></i> Ta bort</button>
+        </div>
+      </div>
+    </div>
+    <div class="row  pt-2 pb-2">
+      <div class="col">Harry Potter</div>
+      <div class="col">Harry Potter möter GW</div>
+      <div class="col"><img class="img-fluid" src="./public/img/LEIF.jpeg" alt="Lorax" style="height:50px"></div>
+      <div class="col">140kr</div>
+      <div class="col"><input type="checkbox"></div>
+      <div class="col">45 stycken</div>
+       <div class="row justify-content-start">
+         <div class="col-auto">
+           <button class="btn btn-primary"><i data-feather="edit"></i> Ändra</button>
+         </div>
+         <div class="col-auto">
+           <button class="btn btn-danger"><i data-feather="trash-2"></i> Ta bort</button>
+         </div>
+       </div>
+    </div>
+    
   </div>
 
   <iframe src="./footer.html" frameborder="0" class="w-100" height="auto" title="footer" id="footer"></iframe>

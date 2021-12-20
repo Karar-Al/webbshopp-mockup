@@ -28,6 +28,11 @@ body {
   background: rgba(0, 20, 198, 0.68);
 }
 
+.bg-row {
+  background: rgba(0, 20, 198, 0.68);
+  color:white;
+}
+
 .search {
   border: 2px solid;
   border-image-source: linear-gradient(90deg, #2C2A97 0%, #5552E1 68.23%);
